@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class thymeleafController {
         @GetMapping("index")
         public String indexPage(Model model){
-            model.addAttribute("msg","八嘎呀路");
+            model.addAttribute("msg","11111111");
             return "index.html";
         }
 }
